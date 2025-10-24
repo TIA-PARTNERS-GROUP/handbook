@@ -1,0 +1,163 @@
+.reposIndex {
+  padding: 2rem 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.reposIndex h1 {
+  color: var(--ifm-color-primary);
+  margin: 0;
+}
+
+.refreshButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.refreshButton:hover {
+  background: var(--ifm-color-primary-dark);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.refreshButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+.refreshButton:disabled:hover {
+  background: var(--ifm-color-primary);
+}
+
+.icon {
+  font-size: 1rem;
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  font-size: 1rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reposIndex h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.reposIndex p {
+  margin-bottom: 2rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.repoCard {
+  background: var(--ifm-color-emphasis-100);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  transition: all 0.2s ease;
+}
+
+.repoCard:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.repoCard h3 {
+  margin: 0 0 1rem 0;
+}
+
+.repoCard h3 a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+.repoCard h3 a:hover {
+  text-decoration: underline;
+}
+
+.repoMeta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.repoLink {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.repoLink:hover {
+  text-decoration: underline;
+}
+
+.repoLanguage {
+  background: var(--ifm-color-primary);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.repoStats {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.repoUpdated {
+  color: var(--ifm-color-emphasis-600);
+}
+
+.archived {
+  background: var(--ifm-color-warning);
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+}
+
+.repoDescription {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-style: italic;
+}
+
+.footer {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  text-align: center;
+  color: var(--ifm-color-emphasis-600);
+}

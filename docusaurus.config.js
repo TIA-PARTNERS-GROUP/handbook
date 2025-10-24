@@ -59,6 +59,19 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      './plugins/github-readme-plugin',
+      {
+        organization: 'TIA-PARTNERS-GROUP',
+        githubToken: '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',
+        outputDir: 'docs/github-repos',
+        excludeRepos: ['TIA-HANDBOOK'], // Exclude this handbook repo
+        includeArchived: false,
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -72,6 +85,11 @@ const config = {
             sidebarId: "tutorialSidebar",
             position: "left",
             label: "Documentation",
+          },
+          {
+            to: "/docs/github-repos",
+            position: "left",
+            label: "GitHub Repositories",
           },
           {
             href: "https://github.com/TIA-PARTNERS-GROUP",
