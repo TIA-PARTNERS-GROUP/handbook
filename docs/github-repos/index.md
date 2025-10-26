@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # GitHub Repositories
 
 This section contains documentation automatically generated from README files of repositories in the [TIA-PARTNERS-GROUP](https://github.com/TIA-PARTNERS-GROUP) organization.
@@ -15,3 +19,16 @@ The following repositories are available:
 ## How to Use
 
 Click on any repository name above to view its full README documentation.
+
+## Architecture
+
+The following diagram describes how the systems interact with each other:
+
+<br />
+
+<img 
+  src="/handbook/img/Architecture.png" 
+  alt="System Architecture Diagram" 
+  width="752" 
+  height="642"
+/>

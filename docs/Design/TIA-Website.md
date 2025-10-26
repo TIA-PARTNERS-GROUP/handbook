@@ -1,4 +1,4 @@
-## TIA Website Design
+# Landing Pages
 
 This document outlines the core visual components and guidelines for the TIA brand, as defined in our Figma design library. [Figma](https://www.figma.com/design/SQkuopu65w0X8XLSkmJZr8/TIA-design?node-id=7-30&p=f&t=ZGmVAEevszpWfPd0-0)
 
