@@ -6,11 +6,11 @@ This section contains documentation automatically generated from README files of
 
 The following repositories are available:
 
-- [TIA-LLM](/TIA-HANDBOOK/docs/github-repos/tia-llm) - AI-powered chatbot system
-- [TIA-WEBSITE](/TIA-HANDBOOK/docs/github-repos/tia-website) - React + Vite website
-- [handbook](/TIA-HANDBOOK/docs/github-repos/handbook) - This handbook
-- [TIA-DEPLOYMENT](/TIA-HANDBOOK/docs/github-repos/tia-deployment) - AWS deployment scripts
-- [tia-api](/TIA-HANDBOOK/docs/github-repos/tia-api) - Go API service
+- [TIA-LLM](/docs/github-repos/tia-llm) - AI-powered chatbot system
+- [TIA-WEBSITE](/docs/github-repos/tia-website) - React + Vite website
+- [handbook](/docs/github-repos/handbook) - This handbook
+- [TIA-DEPLOYMENT](/docs/github-repos/tia-deployment) - AWS deployment scripts
+- [tia-api](/docs/github-repos/tia-api) - Go API service
 
 ## How to Use
 
