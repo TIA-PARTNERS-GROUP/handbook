@@ -26,8 +26,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "TIA-PARTNERS", // Usually your GitHub org/user name.
-  projectName: "TIA-HANDBOOK", // Usually your repo name.
+  organizationName: "TIA-PARTNERS-GROUP", // Usually your GitHub org/user name.
+  projectName: "handbook", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -64,7 +64,7 @@ const config = {
       './plugins/github-readme-plugin',
       {
         organization: 'TIA-PARTNERS-GROUP',
-        githubToken: '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',
+        githubToken: process.env.GITHUB_TOKEN,
         outputDir: 'docs/github-repos',
         excludeRepos: ['TIA-HANDBOOK'], // Exclude this handbook repo
         includeArchived: false,
