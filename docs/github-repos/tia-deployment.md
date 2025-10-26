@@ -1,3 +1,4 @@
+# TIA-DEPLOYMENT
 ## TIA Smart Connect AWS Deployment
 
 This directory contains scripts and configuration for deploying TIA Smart Connect infrastructure on AWS using Terraform.
