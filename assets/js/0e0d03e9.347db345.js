@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktia_handbook=self.webpackChunktia_handbook||[]).push([[991],{1977:(e,i,n)=>{n.r(i),n.d(i,{default:()=>a});n(6540);var s=n(4848);function a(){return(0,s.jsxs)("div",{children:[(0,s.jsx)("h1",{children:"Simple Test Page"}),(0,s.jsx)("p",{children:"If you can see this, routing is working!"})]})}}}]);

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunktia_handbook=globalThis.webpackChunktia_handbook||[]).push([[145],{6939:a=>{a.exports=JSON.parse('{"name":"github-readme-plugin","id":"default"}')}}]);
